@@ -1,10 +1,11 @@
 {
   "presets": [
     "es2015",
-    "stage-0",
+    "stage-0", // if commented, fixes issue
     "react",
   ],
   "plugins": [
+    // 'transform-decorators-legacy' // if uncommented, fixes issue
   ],
   "env": {
   }
